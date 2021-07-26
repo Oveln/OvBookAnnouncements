@@ -1,0 +1,7 @@
+name: OvBookAnnouncements
+version: 1.0
+main: com.oveln.ovbookannouncements.Main
+commands:
+  book:
+    description: 书
+    usage: 请输入正确指令

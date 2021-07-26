@@ -1,0 +1,8 @@
+Language: zh_cn
+#验证码显示
+Code: "%code%"
+# %page% 表示下一页
+Book:
+  - "这是第一页"
+  - "%page%"
+  - "这是第二页"
