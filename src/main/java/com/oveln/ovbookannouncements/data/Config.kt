@@ -17,7 +17,6 @@ object Config {
         config.getStringList("Book").forEach() {
             s = if (it == "%page%") {
                 Book.add(s)
-                print(s)
                 ""
             }else s+it.colorful()+"\n"
         }
